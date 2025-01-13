@@ -4,7 +4,7 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 
 ## Available Themes
 
-- NILBOG's Acrylic
+#### NILBOG's Acrylic
 ![NILBOG's Acrylic](img/nilbogs-acrylic.png)
 
 ## Install Instructions
@@ -24,4 +24,7 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 ### Powercord
 1. Clone this repository into your Powercord `themes` folder:
    ```bash
-   git clone https://github.com/your-username/vencord-custom-css.git ~/.powercord/themes/custom-css
+   git clone https://github.com/NILBOGtheSavior/NILBOGs-discord-themes.git ~/.powercord/themes/custom-css
+
+## Background Blur
+
