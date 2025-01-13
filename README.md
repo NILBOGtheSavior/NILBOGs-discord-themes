@@ -28,3 +28,4 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 
 ## Background Blur
 
+```Instructions coming soon```
