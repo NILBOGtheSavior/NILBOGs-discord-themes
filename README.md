@@ -1,5 +1,8 @@
 # NILBOG's Discord Themes
 
+> [!WARNING]  
+> This is still in beta. Not all buttons are clear, and the color's still need some work.
+
 This repository contains my custom CSS profile for Discord, designed to transform the interface into a clean and aesthetically pleasing experience.
 
 ## Available Themes
