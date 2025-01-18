@@ -6,17 +6,11 @@
 This repository contains my custom CSS profile for Discord, designed to transform the interface into a clean and aesthetically pleasing experience.
 
 ## Available Themes
-
-#### NILBOG's Acrylic
-##### Properties
-- [x] Transparent
-
-![NILBOG's Acrylic](img/nilbogs-acrylic.png)
-
-#### One Piece
-- [x] Transparent
-
-![One Piece](img/one-piece.png)
+[[Preview Themes]](./THEMES.md)
+### Standard Themes
+- NILBOG's Acrylic
+### Crossovers
+- One Piece
 
 ## Install Instructions
 
@@ -76,4 +70,4 @@ You may decide whether you would like to install the entire theme pack, or just 
    1. Install [GNOME Shell extensions](https://extensions.gnome.org/).
    2. Install the [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) extension.
    3. Open the **Extensions** manager program, find `Blur my Shell` and click `Settings`.
-   4. Under `Applications > Whitelist`, click `+ Add Window` and select Discord.
+   4. Under `Applications > Whitelist`, click `+ Add Window` and select **Discord**.
