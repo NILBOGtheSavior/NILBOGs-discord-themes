@@ -17,7 +17,11 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 
 ## Install Instructions
 
-### Install one of the following:
+### 1: Install Discord mod of your preference
+
+Install either Vencordd, BetterDiscord, or Powercord.
+
+### 2: Install the theme pack
 
 #### Vencord
 1. Open Vencord settings in Discord.
