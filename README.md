@@ -19,7 +19,9 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 
 ### 1: Install Discord mod of your preference
 
-Install either Vencordd, BetterDiscord, or Powercord.
+Install either Vencord, BetterDiscord, or Powercord.
+
+![[[Vencord](https://vencord.dev/assets/logo-nav-oneko-padding.png)]](https://vencord.dev/)
 
 ### 2: Install the theme pack
 
