@@ -19,26 +19,26 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 
 ### 1: Install Discord mod of your preference
 
-Install either Vencord, BetterDiscord, or Powercord.
+- Install either Vencord, BetterDiscord, or Powercord.
 
 <img src="https://vencord.dev/assets/logo-nav-oneko-padding.png" alt="Vencord" height="25"/>   [[Vencord]](https://vencord.dev/)
 
 <img src="https://betterdiscord.app/resources/branding/logo_small.svg" alt="BetterDiscord" height="25"/>   [[BetterDiscord]](https://betterdiscord.app/)
 
-<img src="https://avatars.githubusercontent.com/u/46755359?s=48&v=4" alt="Powercord" height="25"/>   [[BetterDiscord]](https://betterdiscord.app/)
+<img src="https://avatars.githubusercontent.com/u/46755359?s=48&v=4" alt="Powercord" height="25"/>   [[Powercord]](https://betterdiscord.app/)
 
 ### 2: Install the theme pack
 
-#### Vencord
-1. Open Vencord settings in Discord.
-2. Navigate to **Themes**.
-3. Paste the CSS from `themes/____.css` into the **Custom CSS** section.
+- #### Vencord
+- 1. Open Vencord settings in Discord.
+- 2. Navigate to **Themes**.
+- 3. Paste the CSS from `themes/____.css` into the **Custom CSS** section.
 
-#### BetterDiscord
-1. Download the `themes/____.css` file.
-2. Place it in the BetterDiscord themes folder:
-   - **Windows**: `%AppData%\BetterDiscord\themes`
-   - **Mac/Linux**: `~/.config/BetterDiscord/themes`
+- #### BetterDiscord
+   1. Download the `themes/____.css` file.
+   2. Place it in the BetterDiscord themes folder:
+      - **Windows**: `%AppData%\BetterDiscord\themes`
+      - **Mac/Linux**: `~/.config/BetterDiscord/themes`
 3. Enable the theme in the BetterDiscord settings.
 
 #### Powercord
