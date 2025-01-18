@@ -12,6 +12,7 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 
 #### One Piece
 - [x] Transparent
+
 ![One Piece](img/one-piece.png)
 
 ## Install Instructions
