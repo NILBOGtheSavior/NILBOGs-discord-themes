@@ -1,0 +1,149 @@
+/* 
+NILBOG's One Piece Theme
+*/
+
+@import url("https://use.typekit.net/ngl2zda.css");
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+:root {
+    /* Buttons */
+    --green-360: rgba(255, 255, 255, .75);
+    --green-330: red;
+    --white-500: var(--one-piece-accent);
+    /* Text and Icons*/
+    /* --font-primary: "Poiret One", sans-serif; */
+    --text-normal: darkslategray;
+    --text-muted: gray;
+    --button-secondary-background: white;
+    --text-link: var(--one-piece-quaternary);
+
+    --main-background-image: url();
+
+    --one-piece-primary: rgba(93, 182, 240, 0.5); /* main blue */
+    --one-piece-secondary: rgba(34, 75, 147, 0.25);
+    --one-piece-tertiary: ;
+    --one-piece-quaternary: rgba(215, 1, 0, 0.5);
+    --one-piece-accent: rgba(255, 204, 1, 0.25);
+}
+
+  .notAppAsidePanel_bd26cc {
+    background: url('./img/one-piece/one-piece-background.png') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container_bf550a {
+    background: url(./img/one-piece/one-piece-ship.png) no-repeat center bottom fixed;
+    background-size: contain;
+  }
+
+  .wrapper_f90abb {
+    background-color: var(--one-piece-accent);
+  }
+
+  .childWrapper_f90abb {
+    background: url(./img/one-piece/one-piece-logo.png);
+    background-size: contain;
+  }
+
+  .childWrapper_f90abb > svg {
+    display: none;
+  }
+
+
+
+.theme-dark {
+    --background-primary: transparent; 
+    --background-secondary: var(--one-piece-primary);
+    --background-secondary-alt: var(--one-piece-accent);
+    --background-tertiary: transparent;
+    --background-accent: var(--one-piece-quaternary);
+    --bg-overlay-1: transparent;
+    --bg-overlay-2: transparent;
+    --bg-overlay-3: transparent;
+
+    /* --background-primary: #5db6f0;  */
+    /* --background-secondary: transparent;  */
+    /* --background-secondary-alt: #5db6f0; */
+    --background-tertiary: transparent;
+    --background-accent: black;
+    /* --bg-overlay-1: #5db6f0; */
+    /* --bg-overlay-2: #224b93; */
+    /* --bg-overlay-3: #6582d0; */
+
+    --background-modifier-rgb: transparent;
+    --background-modifier-hover: transparent;
+    --background-modifier-active: transparent;
+    --background-modifier-selected: transparent;
+    --background-modifier-accent: transparent;
+
+    --deprecated-text-input-bg: rgba(255, 255, 255, 0.25);
+    --button-filled-brand-background-hover: var(--one-piece-quaternary);
+
+    --background-floating: var(--one-piece-accent);
+
+    --background-modifier-hover: var(--one-piece-secondary);
+    --profile-body-divider-color: rgba(255, 255, 255, 0.1);
+
+    --bg-surface-overlay: rgba(255, 255, 255, 0.25);
+    --modal-background: transparent;
+
+    --activity-card-background: var(--one-piece-accent);
+
+    --card-primary-bg: rgba(255, 255, 255, 0.25);
+
+    --primary-630: rgba(255, 255, 255, 0.5);;
+    --primary-800: rgba(255, 255, 255, 0.1);
+    --primary-860: rgba(255, 255, 255, 0.5);
+
+
+    --text-positive: white;
+
+    --status-positive-text: white;
+    --status-positive-background: rgba(255, 255, 255, 0.25);
+
+    --bg-brand: rgba(255, 255, 255, 0.25);
+    
+    --text-normal: white; 
+
+
+    --button-filled-brand-background: rgba(255, 255, 255, 0.25);
+
+    --text-muted: rgba(255,255,255,0.5);
+    --header-primary: white;
+    --header-secondary: white;
+    --interactive-active: var(--one-piece-quaternary);
+    --interactive-normal: white;
+    --primary-400: rgba(255, 255, 255, 0.25);
+    --button-secondary-background: white;
+    --button-positive-background: white;
+    --channels-default: rgba(255, 255, 255, 0.75);
+
+}
+
+body {
+    background: var(--background-image) no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire area */
+    backdrop-filter: blur(10px); /* Optional: Adds blur to create a cool effect */
+    opacity: var(--background-opacity);
+  }
+
+/* */
+.theme-dark .container-xyzABC { /* Replace 'container-xyzABC' with the actual class */
+    background: var(--background-image) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+
+/* Transparent Call Background */
+.wrapper-1gVUIN, .minimum-fXpVNc, .callContainer-HtHELf {
+    background: none!important;
+    }
+#app-mount .container-3wLKDe, .chat-2ZfjoI, .background-fkKrXt, .header-3xB4vB, .content-1jQy2l, .root-g14mjS, .fullscreenOnMobile-ixj0e3, .card-14SgW5, .theme-dark, .navRow-dG-XX8, .directoryModal-YJsOMv, .autocomplete-3NRXG8, .flex-2S1XBF, .applicationStore-2nk7Lo {
+	background: transparent;
+}
+
+.gradientTop_dd069c, .gradientBottom_dd069c {
+    background-image: none;
+}
