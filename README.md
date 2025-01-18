@@ -29,10 +29,15 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 
 ### 2: Install the theme pack
 
+You may decide whether you would like to install the entire theme pack, or just a few.
+
 - #### Vencord
-1. Open Vencord settings in Discord.
-2. Navigate to **Themes**.
-3. Paste the CSS from `themes/____.css` into the **Custom CSS** section.
+1. Navigate to **User Settings > Vencord**
+2. Check `Enable Custom CSS` and `Enable window transparency`. You may need to restart Discord.
+3. Navigate to **Themes**.
+4. Click on the `Open Themes Folder` button.
+5. Move the `themes/____.css` files from this repository into the `Vencord/themes/` directory.
+6. Enable the theme in the Vencord settings.
 
 - #### BetterDiscord
 1. Download the `themes/____.css` file.
