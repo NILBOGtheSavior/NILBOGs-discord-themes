@@ -21,7 +21,9 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 
 Install either Vencord, BetterDiscord, or Powercord.
 
-![Vencord](https://vencord.dev/assets/logo-nav-oneko-padding.png)   [[Vencord]](https://vencord.dev/)
+<img src="https://vencord.dev/assets/logo-nav-oneko-padding.png" alt="drawing" width="200"/>
+
+![Vencord]()   [[Vencord]](https://vencord.dev/)
 
 ![BetterDiscord](https://betterdiscord.app/resources/branding/logo_small.svg)   [[BetterDiscord]](https://betterdiscord.app/)
 
