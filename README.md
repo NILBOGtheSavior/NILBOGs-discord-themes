@@ -30,19 +30,19 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 ### 2: Install the theme pack
 
 - #### Vencord
-   1. Open Vencord settings in Discord.
-   2. Navigate to **Themes**.
-   3. Paste the CSS from `themes/____.css` into the **Custom CSS** section.
+1. Open Vencord settings in Discord.
+2. Navigate to **Themes**.
+3. Paste the CSS from `themes/____.css` into the **Custom CSS** section.
 
 - #### BetterDiscord
-   1. Download the `themes/____.css` file.
-   2. Place it in the BetterDiscord themes folder:
-      - **Windows**: `%AppData%\BetterDiscord\themes`
-      - **Mac/Linux**: `~/.config/BetterDiscord/themes`
-   3. Enable the theme in the BetterDiscord settings.
+1. Download the `themes/____.css` file.
+2. Place it in the BetterDiscord themes folder:
+   - **Windows**: `%AppData%\BetterDiscord\themes`
+   - **Mac/Linux**: `~/.config/BetterDiscord/themes`
+3. Enable the theme in the BetterDiscord settings.
 
 - #### Powercord
-   1. Clone this repository into your Powercord `themes` folder:
+1. Clone this repository into your Powercord `themes` folder:
    ```bash
    git clone https://github.com/NILBOGtheSavior/NILBOGs-discord-themes.git ~/.powercord/themes/custom-css
 
