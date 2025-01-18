@@ -8,6 +8,9 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 ## Available Themes
 
 #### NILBOG's Acrylic
+##### Properties
+- [x] Transparent
+
 ![NILBOG's Acrylic](img/nilbogs-acrylic.png)
 
 #### One Piece
@@ -17,15 +20,17 @@ This repository contains my custom CSS profile for Discord, designed to transfor
 
 ## Install Instructions
 
+`Windows` `Mac` `Linux`
+
 ### 1: Install Discord mod of your preference
 
 - Install either Vencord, BetterDiscord, or Powercord.
 
-<img src="https://vencord.dev/assets/logo-nav-oneko-padding.png" alt="Vencord" height="25"/>   [[Vencord]](https://vencord.dev/)
+> <img src="https://vencord.dev/assets/logo-nav-oneko-padding.png" alt="Vencord" height="25"/>   [Vencord](https://vencord.dev/)
 
-<img src="https://betterdiscord.app/resources/branding/logo_small.svg" alt="BetterDiscord" height="25"/>   [[BetterDiscord]](https://betterdiscord.app/)
+> <img src="https://betterdiscord.app/resources/branding/logo_small.svg" alt="BetterDiscord" height="25"/>   [BetterDiscord](https://betterdiscord.app/)
 
-<img src="https://avatars.githubusercontent.com/u/46755359?s=48&v=4" alt="Powercord" height="25"/>   [[Powercord]](https://betterdiscord.app/)
+> <img src="https://avatars.githubusercontent.com/u/46755359?s=48&v=4" alt="Powercord" height="25"/>   [Powercord](https://betterdiscord.app/)
 
 ### 2: Install the theme pack
 
@@ -53,4 +58,22 @@ You may decide whether you would like to install the entire theme pack, or just 
 
 ## Background Blur
 
-```Instructions coming soon```
+`Windows` `Linux`
+
+- ### Windows
+1. Download [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone).
+2. Launch the app and look through general settings. I recommend checking `Run on Startup`.
+![Mica](img/tutorial/mica.png)
+3. Click on the `+` button on the bottom left of the window, then on `Add Process Rule`. Enter **'Discord'** as the process name.
+   - ![addRule](img/tutorial/addRule.png)
+   - ![processName](img/tutorial/processName.png)
+4. Turn `Blur Behind` on.
+   - ***Optional:** Turn on `rounded edges`.*
+![blurBehind](img/tutorial/blurBehind.png)
+
+- ### Linux
+   #### Debian/Ubuntu
+   1. Install [GNOME Shell extensions](https://extensions.gnome.org/).
+   2. Install the [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) extension.
+   3. Open the **Extensions** manager program, find `Blur my Shell` and click `Settings`.
+   4. Under `Applications > Whitelist`, click `+ Add Window` and select Discord.
