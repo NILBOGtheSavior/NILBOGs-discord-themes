@@ -1,15 +1,18 @@
-# NILBOG's Discord Themes
+# NILBOGs-Discord-Themes
+
+![Header](/img/NILBOG's-discord-themes.png)
 
 > [!WARNING]  
-> This is still in beta. Product may not work as expected.
+> This is still in beta. Themes may not work as expected.
 
 This repository contains my custom CSS profile for Discord, designed to transform the interface into a clean and aesthetically pleasing experience.
 
 ## Available Themes
-[[Preview Themes]](./THEMES.md)
+[[Preview Themes]](./themes.md)
 ### Standard Themes
 - NILBOG's Acrylic
 ### Crossovers
+- Razer
 - One Piece
 
 ## Install Instructions
@@ -67,7 +70,7 @@ You may decide whether you would like to install the entire theme pack, or just 
 
 - ### Linux
    #### Debian/Ubuntu
-   1. Install [GNOME Shell extensions](https://extensions.gnome.org/).
-   2. Install the [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) extension.
-   3. Open the **Extensions** manager program, find `Blur my Shell` and click `Settings`.
-   4. Under `Applications > Whitelist`, click `+ Add Window` and select **Discord**.
+1. Install [GNOME Shell extensions](https://extensions.gnome.org/).
+2. Install the [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) extension.
+3. Open the **Extensions** manager program, find `Blur my Shell` and click `Settings`.
+4. Under `Applications > Whitelist`, click `+ Add Window` and select **Discord**.
