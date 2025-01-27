@@ -8,7 +8,7 @@
 This repository contains my custom CSS profile for Discord, designed to transform the interface into a clean and aesthetically pleasing experience.
 
 ## Available Themes
-[[Preview Themes]](./themes.md)
+[[Preview Themes]](./THEMES.md)
 ### Standard Themes
 - NILBOG's Acrylic
 ### Crossovers
