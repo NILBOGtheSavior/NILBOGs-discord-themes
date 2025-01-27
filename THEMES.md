@@ -5,7 +5,7 @@
 ### Acrylic
 A clean and clear discord theme
 #### Properties
-`Transparent`
+`Transparent` `Light & Dark Mode`
 ![Acrylic](img/nilbogs-acrylic.png)
 
 ## Crossovers

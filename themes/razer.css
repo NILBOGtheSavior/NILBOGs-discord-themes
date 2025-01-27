@@ -1,7 +1,7 @@
 /**
  * @name Razer
  * @author NILBOGtheSavior
- * @version 0.1.0
+ * @version 0.8.0
  * @description A sleek razer theme.
  * @source https://github.com/NILBOGtheSavior/NILBOGs-discord-themes/
 */
@@ -56,7 +56,7 @@
 
 
 
-.theme-dark {
+.theme-dark, .theme-light {
     --background-primary: var(--theme-primary); 
     --background-secondary: var(--theme-secondary);
     --background-secondary-alt: var(--theme-accent);
@@ -133,7 +133,7 @@ body {
   }
 
 /* */
-.theme-dark .container-xyzABC { /* Replace 'container-xyzABC' with the actual class */
+.theme-dark .container-xyzABC, .theme-light .container-xyzABC {
     background: var(--background-image) no-repeat center center fixed;
     background-size: cover;
   }
@@ -143,7 +143,7 @@ body {
 .wrapper-1gVUIN, .minimum-fXpVNc, .callContainer-HtHELf {
     background: none!important;
     }
-#app-mount .container-3wLKDe, .chat-2ZfjoI, .background-fkKrXt, .header-3xB4vB, .content-1jQy2l, .root-g14mjS, .fullscreenOnMobile-ixj0e3, .card-14SgW5, .theme-dark, .navRow-dG-XX8, .directoryModal-YJsOMv, .autocomplete-3NRXG8, .flex-2S1XBF, .applicationStore-2nk7Lo {
+#app-mount .container-3wLKDe, .chat-2ZfjoI, .background-fkKrXt, .header-3xB4vB, .content-1jQy2l, .root-g14mjS, .fullscreenOnMobile-ixj0e3, .card-14SgW5, .theme-dark, .theme-light, .navRow-dG-XX8, .directoryModal-YJsOMv, .autocomplete-3NRXG8, .flex-2S1XBF, .applicationStore-2nk7Lo {
 	background: transparent;
 }
 

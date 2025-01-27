@@ -57,7 +57,7 @@
 
 
 
-.theme-dark {
+.theme-dark, .theme-light {
     --background-primary: transparent; 
     --background-secondary: var(--one-piece-primary);
     --background-secondary-alt: var(--one-piece-accent);
@@ -125,19 +125,6 @@
     --channels-default: rgba(255, 255, 255, 0.75);
 
 }
-
-body {
-    background: var(--background-image) no-repeat center center fixed;
-    background-size: cover; /* Ensures the image covers the entire area */
-    backdrop-filter: blur(10px); /* Optional: Adds blur to create a cool effect */
-    opacity: var(--background-opacity);
-  }
-
-/* */
-.theme-dark .container-xyzABC { /* Replace 'container-xyzABC' with the actual class */
-    background: var(--background-image) no-repeat center center fixed;
-    background-size: cover;
-  }
 
 
 /* Transparent Call Background */

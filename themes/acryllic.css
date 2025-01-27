@@ -1,7 +1,7 @@
 /**
  * @name Acryllic
  * @author NILBOGtheSavior
- * @version 0.8.0
+ * @version 1.0.0
  * @description A clean and clear discord theme.
  * @source https://github.com/NILBOGtheSavior/NILBOGs-discord-themes/
 */
@@ -15,27 +15,29 @@
     /* --font-primary: "Poiret One", sans-serif; */
     --text-normal: darkslategray;
     --text-muted: gray;
+    
     --button-secondary-background: white;
 
-    
+    --channel-icon: rgba(255, 255, 255, .75);
 
 }
 
-.theme-dark {
-    --background-primary: rgba(255, 255, 255, 0);
-    --background-secondary: rgba(255, 255, 255, 0.1);
+.theme-dark, .theme-light {
+    --background-primary: rgba(0, 0, 0, 0.25);
+    --background-secondary: transparent;
     --background-secondary-alt: rgba(255, 255, 255, 0.25);
-    --background-tertiary: rgba(0, 0, 0, 0.1);
     --background-accent: black;
-    --bg-overlay-1: rgba(255, 255, 255, 0.1);
-    --bg-overlay-2: rgba(255, 255, 255, 0.05);
-    --bg-overlay-3: rgba(255, 255, 255, 0.2);
+    
+    
 
     --background-modifier-rgb: transparent;
     --background-modifier-hover: transparent;
     --background-modifier-active: transparent;
     --background-modifier-selected: transparent;
     --background-modifier-accent: transparent;
+
+    --button-positive-background: rgba(255, 255, 255, .25) !important;
+    --button-positive-background-hover: rgba(0, 0, 0, .25);
 
     --deprecated-text-input-bg: rgba(255, 255, 255, 0.25);
     --button-filled-brand-background-hover: rgba(255, 255, 255, 0.5);
@@ -73,13 +75,28 @@
     --text-muted: rgba(255,255,255,0.5);
     --header-primary: white;
     --header-secondary: white;
-    --interactive-active: rgba(255, 255, 255, 0.75);
-    --interactive-normal: white;
+    --interactive-active: white;
+    --interactive-normal: rgba(255, 255, 255, 0.5);
     --primary-400: rgba(255, 255, 255, 0.25);
     --button-secondary-background: white;
     --button-positive-background: white;
-    --channels-default: rgba(255, 255, 255, 0.75);
+    --channels-default: white;
 
+}
+
+.theme-light {
+    --background-tertiary: rgba(255, 255, 255, 0.05);
+    --bg-overlay-1: rgba(255, 255, 255, 0.1);
+    --bg-overlay-2: rgba(255, 255, 255, 0.05);
+    --bg-overlay-3: rgba(255, 255, 255, 0.2);
+    
+}
+
+.theme-dark {
+    --background-tertiary: rgba(0, 0, 0, 0.05);
+    --bg-overlay-1: rgba(0, 0, 0, 0.05);
+    --bg-overlay-2: rgba(0, 0, 0, 0.05);
+    --bg-overlay-3: rgba(255, 255, 255, 0.05);
 }
 
 
@@ -93,4 +110,17 @@
 
 .gradientTop_dd069c, .gradientBottom_dd069c {
     background-image: none;
+}
+
+/* For Spotify Plugin */
+.vc-spotify-button {
+    --interactive-normal: rgba(255, 255, 255, .5);
+}
+
+.vc-spotify-shuffle-on, .vc-spotify-repeat-context, .vc-spotify-repeat-track, .vc-spotify-shuffle-on:hover, .vc-spotify-repeat-context:hover, .vc-spotify-repeat-track:hover {
+    --interactive-normal: white;
+}
+
+.barFill_c7a159 {
+    background: rgba(255, 255, 255, 0.75);
 }
